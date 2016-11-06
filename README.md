@@ -9,5 +9,6 @@
 # 3.开始安装ubantu
 
     —> 开启VMware，点击  创建新的虚拟机
-    ![image](https://github.com/Hiooary/Ubuntu/blob/master/images/one.png)
-   
+    ![image](https://github.com/Hiooary/Ubuntu/images/图片1.png)
+    ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+ 
