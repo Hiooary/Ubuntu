@@ -10,6 +10,7 @@
 
     —> 开启VMware，点击  创建新的虚拟机
     ![image](https://github.com/Hiooary/Ubuntu/images/图片1.png)
+    
     ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
     ![图片1](https://github.com/Hiooary/Ubuntu/blob/master/images/图片1.png)  
     <br>![upload](https://github.com/Hiooary/-gh-pages-Demo/blob/master/images/upload.png) 
