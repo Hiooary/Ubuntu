@@ -9,6 +9,7 @@
 # 3.开始安装ubantu
 
    —> 开启VMware，点击  创建新的虚拟机
+<<<<<<< HEAD
    ![图片1](https://github.com/Hiooary/Ubuntu/blob/master/images/图片1.png)  
    ![图片1](https://github.com/Hiooary/Ubuntu/blob/master/images/图片2.png)
    ![图片1](https://github.com/Hiooary/Ubuntu/blob/master/images/图片3.png)
@@ -16,5 +17,17 @@
    ![图片1](https://github.com/Hiooary/Ubuntu/blob/master/images/图片5.png)
    ![图片1](https://github.com/Hiooary/Ubuntu/blob/master/images/图片6.png)  
 
+=======
+   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片1.png)
+   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片2.png)
+   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片3.png)
+   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片4.png)
+   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片5.png)
+   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片6.png)
+   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片7.png)
+   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片8.png)
+   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片9.png)
+   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片10.png)
+>>>>>>> origin/master
 
  
