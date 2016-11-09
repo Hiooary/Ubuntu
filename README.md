@@ -44,8 +44,8 @@
    点击 “开启虚拟机”。注意：安装时请不要插入 U盘！                            
    ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片11.png)
    
-   然而开不了虚拟机，提示<br><b>this kernel requires an x86-64 cpu but only detected an i686 cpu</b></br><br><b>unable to boot please use a kernel appropriate for your cpu。</b></br>
-   
+   然而开不了虚拟机，提示<br><b>this kernel requires an x86-64 cpu but only detected an i686 cpu
+   unable to boot please use a kernel appropriate for your cpu。</b></br>
    因为必须要在 BIOS 中启用了相关的 CPU 虚拟化功能，否则开启不了虚拟机。
    启用CPU 虚拟化功能：重启笔记本，然后按住F1键，进入BIOS设置，找到Virtual选项，设置成enable，然后保存退出。重启电脑，可以开启虚拟机。
   
