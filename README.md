@@ -44,9 +44,8 @@
    点击 “开启虚拟机”。注意：安装时请不要插入 U盘！                            
    ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片11.png)
    
-   然而开不了虚拟机，提示
-            <b> this kernel requires an x86-64 cpu but only detected an i686 cpu
-                unable to boot please use a kernel appropriate for your cpu。</b>
+   然而开不了虚拟机，提示<br><b>this kernel requires an x86-64 cpu but only detected an i686 cpu</b></br><br><b>unable to boot please use a kernel appropriate for your cpu。</b></br>
+   
    因为必须要在 BIOS 中启用了相关的 CPU 虚拟化功能，否则开启不了虚拟机。
    启用CPU 虚拟化功能：重启笔记本，然后按住F1键，进入BIOS设置，找到Virtual选项，设置成enable，然后保存退出。重启电脑，可以开启虚拟机。
   
@@ -80,27 +79,27 @@
    
  #  二、安装VMwareTools
  
-   新建终端，输入sudo apt-get install build-essential，安装build-essential               
+   新建终端，输入sudo apt-get install build-essential，安装build-essential                                  
    ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片20.png)
    
    获取root权限，输入sudo su，按照提示输入密码
    点击虚拟机，安装VMware Tools。如果已经装过，会提示重新安装                 
    ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片21.png)
    
-   点击 是，刚刚安装了Ubantu系统，CD-ROM默认指向着系统的镜像，要改指向VMware Tools的镜像，点击“是”之后，系统会自动寻找并指向的
+   点击 是，刚刚安装了Ubantu系统，CD-ROM默认指向着系统的镜像，要改指向VMware Tools的镜像，点击“是”之后，系统会自动寻找并指向的                                                                           
    ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片22.png)
    
    在我的电脑中，找到弹出的VMwareTools安装包                                                
    ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片23.png)
    
    提取出来，（我这里是提取到桌面），此时桌面会多一个文件                                
-   下面打开终端，（快捷键Ctrl+Alt+T），然后切换到root用户（切换命令为：sudo su，回车然后会提示你输入当前登录用户的密码，输入成功后即可进入root用户）：
+   下面打开终端，（快捷键Ctrl+Alt+T），然后切换到root用户（切换命令为：sudo su，回车然后会提示你输入当前登录用户的密码，输入成功后即可进入root用户）：                                                                                
    ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片24.png)
    
    然后以root用户进入到刚刚提取到的vmware-tools-distrib文件夹下，然后输入命令：./vmware-install.pl，然后回车
    ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片25.png)
    
-   上面的操作后就开始安装VMware Tools了，根据其提示输入yes/no，直到出现Enjoy, –the VMware team就表示安装成功了，然后手动重启虚拟机，显示重新安装，也表示安装成功                                                                
+   上面的操作后就开始安装VMware Tools了，根据其提示输入yes/no，直到出现Enjoy, –the VMware team就表示安装成功了，然后手动重启虚拟机，显示重新安装，也表示安装成功                                                                                                    
    ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片26.png)
    
    
