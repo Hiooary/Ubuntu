@@ -77,7 +77,7 @@
    
    可以在软件中心安装自己想要的软件
    
- #  二、安装VMwareTools
+#  二、安装VMwareTools
  
    新建终端，输入sudo apt-get install build-essential，安装build-essential                                  
    ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片20.png)
@@ -102,13 +102,6 @@
    上面的操作后就开始安装VMware Tools了，根据其提示输入yes/no，直到出现Enjoy, –the VMware team就表示安装成功了，然后手动重启虚拟机，显示重新安装，也表示安装成功                                                                                                    
    ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片26.png)
    
-   
-   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片27.png)
-   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片28.png)
-   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片29.png)
-   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片30.png)
-   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片31.png)
-   ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片32.png)
    
    
 
