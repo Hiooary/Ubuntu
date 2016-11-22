@@ -103,7 +103,25 @@
    ![图片](https://github.com/Hiooary/Ubuntu/blob/master/images/图片26.png)
    
    
-   
-
-
- 
+ <b>PS:</b>补充一点虚拟机的知识
+   1.宿主机(windows)与客户机(安装在虚拟机中的Linux)网络链接方式                                                           
+   (1)host-only(仅主机模式)：宿主机与客户机单独组网(在不同的网络环境中，网段不同，不能互相通信，不用换一个地点，就切换一次网络)，开启虚拟机网络的网卡和服务：控制面板-网络和internet-网络连接；虚拟网卡要开启
+      好处：网络隔离                                                           
+      坏处：虚拟机与其他服务器之间不能通信                                                           
+   (2)bridge(桥接方式)：客户机与宿主机在同一局域网中                                                           
+     好处：都在同一局域网，可以互相访问                                                           
+     坏处：不安全                                                           
+   2.常用Linux命令                                                           
+    相对路径 . .. ~		目录跳转 cd xxx                                                           
+    创建文件 touch		查看文件 more、cat                                                           
+    查看目录 ls -alR	创建目录 mkdir -p
+    复制目录 cp 		删除文件 rm -r xxx                                                           
+    修改文件权限 chmod -R 700  修改文件（夹）的所有者 root:root xxx                                                           
+    查看文件属性 stat       解压缩文件 tar -xzvf xxx                                                           
+    修改密码 passwd xxx     查看磁盘空间 df -ah                                                           
+    查看进程 ps -ef |grep   杀掉进程 kill -9                                                           
+    修改环境变量 vi /etc/profile                                                             
+    修改主机名 vi /etc/sysconfig/network  vi /etc/hosts                                                           
+    修改ip地址 vi /etc/sysconfig/network-scripts/ifcfg-eth0                                                           
+    关闭防火墙 service iptables stop chkconfig iptables off                                                           
+    关闭selinux setenforce permissive  修改 /etc/selinux/config                                                           
